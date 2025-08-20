@@ -1,0 +1,22 @@
+h1 {
+    color: bisque;
+    font-size: larger;
+}
+#top_heading{
+    background-color: plum;
+}
+.nav {
+    background-color: bisque;
+}
+h3 {
+    color: cadetblue;
+}
+h3:hover{}
+    color: coral;
+}
+.nav:hover {
+    background-color: palevioletred
+}
+a:visited {
+    color: cadetblue;
+}
