@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="job.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <div id="outer">
+        <div id="personal_details">
+            <fieldset>
+            <h3>Personal details</h3>
+            <label for="first name">First Name:</label><br>
+            <input type="text" name="first name" id="first name" placeholder="Enter first name"><br><br>
+            <label for="last name">Last Name:</label><br>
+            <input type="text" name="last name" id="last name" placeholder="Enter last name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter email"><br><br>
+            <label for="number">Number:</label><br>
+            <input type="number" name="number" id="number" placeholder="Enter mobile number"><br><br>
+            </fieldset>
+        </div>
+        <div id="job_details">
+            <fieldset>
+            <h3>Job details</h3>
+            <label for="position">Position applied for:</label><br>
+            <select name="position" id="position" placeholder="Select position">
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="HR">HR</option>
+                <option value="Hacker">Hacker</option>
+                <option value="Developer">Developer</option>
+            </select>
+            <br><br>
+            <label for="experience">Years of experience:</label><br>
+            <input type="text" id="experience"><br><br>
+            <label for="Cover letter">Cover letter</label><br>
+            <input type="cover" id="Cover letter" placeholder="Write here--"><br><br>
+            </fieldset>
+        </div>
+        <div id="Availability">
+            <fieldset margin="20px">
+            <h3>Availability</h3>
+            <label for="start">Available Start Date:</label><br>
+            <input type="date" name="start" id="start"><br>
+            <label>Willing to Relocate?</label><br>
+            <input type="radio" name="agree" id="yes"/>
+            <label for="yes">Yes</label><br>
+            <input type="radio" name="agree" id="no"/>
+            <label for="no">No</label>
+            <br>
+            <br>
+            </fieldset>
+        </div>
+        <div id="submit">
+            <input type="submit" name="Submit" id="submit" />
+        </div>
+    </div>
+</body>
+</html>

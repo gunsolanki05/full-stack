@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-size:30px;
+    color:pink;
+    text-decoration: wavy underline;
+}
+#outer{
+    background-color: rgb(245, 231, 231);
+    height:1100px;
+    width:500px;
+    margin-left:500px;
+    margin-right: 500px;
+}
+#personal_details{
+    text-align: center;
+    color: pink;
+}
+#job_details{
+    text-align: center;
+    color: pink;
+}
+#Availability{
+    text-align: center;
+    color: pink;
+}
+#submit{
+    text-align: center;
+    color: pink;
+}
+fieldset {
+    margin: 20px;
+    padding: 15px; 
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    text-align: left;
+}
