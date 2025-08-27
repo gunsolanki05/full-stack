@@ -1,0 +1,29 @@
+h1,h3 {
+    text-align: left;
+    color: rgb(4, 4, 4);
+    
+}
+ body {
+    background-color: rgb(207, 207, 216);
+
+ }
+ header {
+    background-color: antiquewhite;
+    
+ }
+ nav {
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+ }
+ h3:hover{
+    color: coral;
+ }
+
+a:visited {
+    color: cadetblue;
+}
+footer {
+    text-align: centre;
+    background-color:plum ;
+}
